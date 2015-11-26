@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="c85ac7fe-150f-4975-8eac-d608fa417c3b" ChangeDateTime="11/21/2015 04:09:17">
+    <Property Name="ElementName" Value="[dbo].[projects].[GitHub repository]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[projects]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GitHub" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="22f2c561-1112-4528-b9cc-bf5d40620392" ChangeDateTime="11/21/2015 15:07:52">
+    <Property Name="ElementName" Value="[dbo].[projects].[ProjectDiscription]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[projects]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProjectDescription" />
+  </Operation>
+</Operations>

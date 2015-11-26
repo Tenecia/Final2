@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Bio";
+}
+@*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>*@
+<body>
+    <div id="wrapper">
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                @*<div class="container">*@
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Tenecia A. Guinea</h1>
+                        <h3>Apprentice Coder</h3>
+                        <div class="paragraph-wrapper">
+                            <p>I am a Software Developer with a passion for web development.Seeking a Software Developer position where I can  demonstrate my experience with programming  web  applications, including responsive programming, HTML/CSS/jQuery and experience in building  websites. </p>
+                            <h3>Experience:</h3>
+                            <p>I have experience in programming  web  applications, including responsive programming, HTML/CSS/jQuery and in building  websites. I have also worked with c#, Databases, and SQL.</p>
+                            <h3>Skills:</h3> 
+                            <p>Object Oriented Design, SQL, Research, Customer Service, C#, Hospitals, HTML,  Project Management, Visual Studio, Outlook, Public Speaking, Github, .NET,  Microsoft Word, HTML, Nonprofits, CSS, Healthcare, MVC, EMR, Microsoft Excel,  Pair Programming, Scrum, Agile, BootStrap, Social Media, Git, Strategic Planning,  Microsoft Office</p>
+                            <p>Check out my <a href="https://resume.creddle.io/resume/24v9wh3l4x0" target="_blank">resume</a>, <a href="https://github.com/Tenecia" target="_blank">GitHub</a>, and my <a href="/projects/index"> projects page</a></p>
+                        </div>
+                        @*<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    @*<script src="js/jquery.js"></script>*@
+    <!-- Bootstrap Core JavaScript -->
+    @*<script src="js/bootstrap.min.js"></script>*@
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+</html>
